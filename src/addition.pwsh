@@ -1,0 +1,7 @@
+# add.example.1.dsc.config.yaml
+$schema: https://aka.ms/dsc/schemas/v3/bundled/config/document.json
+resources:
+- name: Sum of 3 and 5
+  type: Microsoft.DSC.Debug/Echo
+  properties:
+  output: "[add(3, 5)]"
